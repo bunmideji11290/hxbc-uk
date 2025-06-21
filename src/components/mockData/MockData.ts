@@ -417,7 +417,7 @@ export const mockAccounts: Account[] = [
         dateTime: 'June 6, 2025',
         description: 'Transfer from OnlyFans - XXXXXX3479',
         status: 'Success',
-        amount_usd: 250000.0,
+        amount_usd: 25000.0,
       },
       {
         dateTime: 'May 31, 2025',
