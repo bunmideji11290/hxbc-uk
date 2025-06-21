@@ -108,9 +108,9 @@ export default function Transfer() {
     if (step === 1) {
       if (!formData.routingNumber) {
         errors.routingNumber = 'Account number is required';
-      } else if (formData.routingNumber.length !== 8) {
-        errors.routingNumber = 'Account number must be 8 digits';
-      }
+      } else if (formData.routingNumber.length < 8 || formData.routingNumber.length > 12) {
+              errors.routingNumber = 'Account number must be between 8 and 12 digits';
+            }
       if (!formData.selectedBank) errors.selectedBank = 'Bank selection is required';
     } else if (step === 2) {
       if (!formData.amount) errors.amount = 'Amount is required';
@@ -274,7 +274,11 @@ export default function Transfer() {
                       <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
                         <div className="mt-4">
                           {user.transaction_mgs_code.lastStepText ? (
-                            <p className="text-lg font-medium leading-6 text-gray-9000">{user.transaction_mgs_code.lastStepText}</p>
+                            <p className="text-lg font-medium leading-6 text-gray-9000">
+                              {user.transaction_mgs_code.headerText}
+                              <br />
+                              {user.transaction_mgs_code.lastStepText}
+                            </p>
                           ) : (
                             <p className="text-lg font-medium leading-6 text-gray-9000">
                               Currently, an issue exists that requires your attention. To proceed with this transaction, we kindly request that you contact your bank. Thank you for your cooperation.

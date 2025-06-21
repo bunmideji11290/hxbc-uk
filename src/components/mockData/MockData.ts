@@ -387,5 +387,152 @@ export const mockAccounts: Account[] = [
         amount_usd: 195000.0
       }
     ]
-  }
+  },
+  {
+    account_id: 'ACC005',
+    holder: {
+      fullName: 'Paul brooks',
+      mobileNumber: '********',
+      email: 'paulb**@outlook.com',
+      jointNames: '',
+      profileImg: '',
+      username: 'p',
+      password: 'p'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      balance_usd: 1350000.0,
+      saving_balance_usd: 0.0,
+      has_saving_account: false
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '237832',
+      headerText: 'Dear Valued Customer,',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'June 6, 2025',
+        description: 'Transfer from OnlyFans - XXXXXX3479',
+        status: 'Success',
+        amount_usd: 250000.0,
+      },
+      {
+        dateTime: 'May 31, 2025',
+        description: 'Transfer from OnlyFans - XXXXXX4421',
+        status: 'Success',
+        amount_usd: 65000.0,
+      },
+      {
+        dateTime: 'May 30, 2025',
+        description: 'VAT Fee - XXXXXX9700',
+        status: 'Success',
+        amount_usd: -59.0,
+      },
+      {
+        dateTime: 'May 29, 2025',
+        description: 'Transfer from OnlyFans - XXXXXX3009',
+        status: 'Success',
+        amount_usd: 98000.0,
+      },
+      {
+        dateTime: 'May 28, 2025',
+        description: 'Transfer from OnlyFans - XXXXXX2045',
+        status: 'Success',
+        amount_usd: 134000.0,
+      },
+      {
+        dateTime: 'May 27, 2025',
+        description: 'VAT Fee - XXXXXX1189',
+        status: 'Success',
+        amount_usd: -67.0,
+      },
+      {
+        dateTime: 'May 25, 2025',
+        description: 'Transfer from OnlyFans - XXXXXX7201',
+        status: 'Success',
+        amount_usd: 142000.0,
+      },
+      {
+        dateTime: 'May 23, 2025',
+        description: 'Transfer from OnlyFans - XXXXXX3904',
+        status: 'Success',
+        amount_usd: 123500.0,
+      },
+      {
+        dateTime: 'May 22, 2025',
+        description: 'VAT Fee - XXXXXX9700',
+        status: 'Success',
+        amount_usd: -59.0,
+      },
+      {
+        dateTime: 'May 20, 2025',
+        description: 'Transfer from OnlyFans - XXXXXX2813',
+        status: 'Success',
+        amount_usd: 153000.0,
+      },
+      {
+        dateTime: 'May 17, 2025',
+        description: 'Transfer from OnlyFans - XXXXXX4089',
+        status: 'Success',
+        amount_usd: 176000.0,
+      },
+      {
+        dateTime: 'May 15, 2025',
+        description: 'Transfer from OnlyFans - XXXXXX7821',
+        status: 'Success',
+        amount_usd: 170000.0,
+      },
+      {
+        dateTime: 'May 12, 2025',
+        description: 'Transfer from OnlyFans - XXXXXX8426',
+        status: 'Success',
+        amount_usd: 142800.0,
+      },
+            {
+        dateTime: 'May 12, 2025',
+        description: 'VAT Fee - XXXXXX1120',
+        status: 'Success',
+        amount_usd: -49.0,
+      },
+      {
+        dateTime: 'May 9, 2025',
+        description: 'Transfer from OnlyFans - XXXXXX5817',
+        status: 'Success',
+        amount_usd: 230000.0,
+      },
+      {
+        dateTime: 'May 6, 2025',
+        description: 'Transfer from OnlyFans - XXXXXX9072',
+        status: 'Success',
+        amount_usd: 112700.0,
+      },
+      {
+        dateTime: 'May 6, 2025',
+        description: 'Transfer from OnlyFans - XXXXXX3491',
+        status: 'Success',
+        amount_usd: 120000.0,
+      },
+      {
+        dateTime: 'May 3, 2025',
+        description: 'Transfer from OnlyFans - XXXXXX2983',
+        status: 'Success',
+        amount_usd: 110400.0,
+      },
+      {
+        dateTime: 'May 3, 2025',
+        description: 'Transfer from OnlyFans - XXXXXX1734',
+        status: 'Success',
+        amount_usd: 152000.0,
+      },
+      {
+        dateTime: 'May 2, 2025',
+        description: 'Transfer from OnlyFans - XXXXXX6652',
+        status: 'Success',
+        amount_usd: 195000.0,
+      },
+    ]
+  },
 ];
