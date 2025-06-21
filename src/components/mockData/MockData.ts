@@ -396,8 +396,8 @@ export const mockAccounts: Account[] = [
       email: 'paulb**@outlook.com',
       jointNames: '',
       profileImg: '',
-      username: 'p',
-      password: 'p'
+      username: 'brookPaul36',
+      password: 'Linabob'
     },
     bank_details: {
       account_type: 'Checking',
